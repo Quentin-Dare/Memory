@@ -1,0 +1,38 @@
+.cartes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 800px;
+    margin-top: auto;
+    gap:10px;
+    margin-left: 100px;
+}
+    
+h1
+{
+    margin-left: 400px;
+    color: cornflowerblue;
+}
+.partie {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.photo {
+    width: 130px;
+    height: 150px;   
+    border: inset solid black 15px; 
+    border-radius: 5px;    
+   
+}
+
+@media (max-width: 700px) {
+    .photo {
+            width: 100px;
+            height: 100px;
+
+    }
+
+}
